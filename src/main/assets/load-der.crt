@@ -1,0 +1,15 @@
+Common Name = *.000webhost.com
+
+Subject Alternative Names = *.000webhost.com, 000webhost.com
+
+Issuer = COMODO RSA Domain Validation Secure Server CA
+
+Serial Number = 315E54EAE852713486A36D9095227DBE
+
+SHA1 Thumbprint = 02E38F27468D92A865BD505E5EC70CA74F83DC7A
+
+Key Length = 2048
+
+Signature algorithm = SHA256 + RSA (excellent)
+
+Secure Renegotiation: Supported

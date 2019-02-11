@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/color1" >
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="111dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/button4"
+        android:layout_marginBottom="22dp"
+        android:text="HISTORY"
+        tools:ignore="RtlCompat" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="121dp"
+        android:layout_height="101dp"
+        android:layout_below="@+id/editText2"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@mipmap/ic_launcher_round" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="251dp"
+        android:layout_height="46dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="175dp"
+        android:rating="3.5"/>
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="chris chross"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="131dp"
+        android:layout_height="37dp"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="-34dp"
+        android:layout_marginRight="-34dp"
+        android:layout_toLeftOf="@+id/editText2"
+        android:layout_toStartOf="@+id/editText2"
+        android:text="Offers : 25"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        tools:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="173dp"
+        android:layout_height="35dp"
+        android:layout_alignStart="@+id/button2"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="-10dp"
+        android:text="Participation : 10"
+        android:textSize="22sp"
+        android:textStyle="italic"
+        tools:ignore="RtlCompat" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="92dp"
+        android:layout_marginEnd="74dp"
+        android:layout_marginRight="74dp"
+        android:text="ADD LICENSE" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="96dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/button7"
+        android:layout_alignTop="@+id/button4"
+        android:text="Modify" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="97dp"
+        android:layout_height="49dp"
+        android:layout_alignTop="@+id/button2"
+        android:layout_marginEnd="-9dp"
+        android:layout_marginTop="-1dp"
+        android:layout_toStartOf="@+id/editText2"
+        android:text="ADD CAR" />
+
+</RelativeLayout>
